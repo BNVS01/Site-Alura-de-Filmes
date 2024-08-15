@@ -1,0 +1,60 @@
+body {
+    color: indigo;
+    background:indigo;
+    margin: 0px;
+    font-family: "Outfit", sans-serif;
+
+}
+
+
+header {
+    border-bottom: solid 2px indigo;
+    padding: 20px;
+    font-size: 32px;
+    color:gold;
+}
+
+
+
+section {
+    background: rgb(0, 0, 0);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    
+}
+.chamada-texto {
+
+    margin-right: 5%;
+}
+ 
+h1 {
+    font-size: 40px;
+}
+
+
+p {
+    font-size: 20px;
+}
+img {
+    height: 200px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+section {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.categoria-videos img {
+    opacity: 1.0;
+    border: 1px solid green;
+
+}
+.categoria h2{
+    color:rgb(44, 11, 68)
+}
